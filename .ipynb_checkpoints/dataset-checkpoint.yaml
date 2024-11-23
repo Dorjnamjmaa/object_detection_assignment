@@ -1,0 +1,17 @@
+train: C:/Users/Lenovo/Documents/yolomodel/dataset/train
+val: C:/Users/Lenovo/Documents/yolomodel/dataset/train
+test: C:/Users/Lenovo/Documents/yolomodel/dataset/train
+
+nc: 20  # Total number of classes
+
+names: [
+    'a',   # 1. Group 'a'
+    'b1', 'b2', 'b3', 'b4',  # 2. Group 'b' (b1, b2, b3, b4)
+    'c1', 'c2',              # 3. Group 'c' (c1, c2)
+    'd1',                    # 4. Group 'd' (d1)
+    'e1', 'e2', 'e3',         # 5. Group 'e' (e1, e2, e3)
+    'f1', 'f2',               # 6. Group 'f' (f1, f2)
+    'g1', 'g2', 'g3',         # 7. Group 'g' (g1, g2, g3)
+    'h1', 'h2', 'h3',         # 8. Group 'h' (h1, h2, h3)
+    'i1'                     # 9. Group 'i' (i1)
+]
