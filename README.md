@@ -4,7 +4,7 @@
 3. Train хийхдээ дараах коммандыг ажиллуулж болно
 python yolov5/train.py --img 640 --batch 16 --epochs 5 --data dataset.yaml --weights yolov5s.pt
 4. Validation хийхдээ дараах коммандаар ажиллуулж болно
-python yolov5/val.py --img 640 --batch 16 --data dataset.yaml --weights  "C:\Users\Lenovo\Documents\yolomodel\yolov5\runs\train\exp9\weights\best.pt"
+python yolov5/val.py --img 640 --batch 16 --data dataset.yaml --weights yolov5/runs/train/exp9/weights/best.pt
 
 Дэд ангилалуудыг дараах байдлаар индексжүүлсэн
     'a' - 0,  
