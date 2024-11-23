@@ -1,6 +1,6 @@
-train: C:/Users/Lenovo/Documents/yolomodel/dataset/train
-val: C:/Users/Lenovo/Documents/yolomodel/dataset/val
-test: C:/Users/Lenovo/Documents/yolomodel/dataset/test
+train: dataset/train
+val: dataset/val
+test: dataset/test
 
 nc: 20  
 
